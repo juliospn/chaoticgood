@@ -1,0 +1,117 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem auto 0;
+  padding: 0 20px;
+}
+
+article {
+  display: flex;
+  column-count: 3; /* Define quatro colunas */
+  column-width: 500px; /* Define o tamanho das colunas em 300 pixels */
+  column-gap: 20px; /* Define um espaçamento de 20 pixels entre as colunas */
+  column-rule: 1px solid #ccc; /* Adiciona uma linha vertical entre as colunas, com 1 pixel de espessura e cor cinza claro */
+  margin: 1rem auto;
+  font-family: Montserrat,sans-serif;
+}
+
+.article-box {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  margin: 0 auto; 
+}
+  
+.article-box img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+  
+.article-box h2 {
+  font-size: 1.5em;
+  margin: 0;
+  color: #000000;
+}
+  
+.article-box p {
+  font-size: 1.2rem;
+  margin-top: 0.75rem;
+  color: #5c6269;
+  width: 380px;
+  text-align: justify;
+  text-decoration: none;
+  font-weight: 250;
+  line-height: 1.425;
+}
+
+.fundo-preto {
+  background-color: #000000;
+  text-decoration: none;
+}
+
+.titulo-principal {
+  background-image: linear-gradient(90deg,#00ffbf, #0cdada, #0980e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Montserrat,sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 550;
+  margin-top: 1rem;
+}
+
+.texto-principal {
+  color: white;
+  font-family: Montserrat,sans-serif;
+  font-size: 1.575rem;
+  line-height: 2.25rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.botao-explorar {
+  display: flex;
+  background-image: linear-gradient(90deg,#16b8e0,#0980e0);
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size:x-large;
+  margin: 0 auto;
+  margin-top: 1.7rem;
+  cursor: pointer;
+}
+
+.centralizador {
+  margin: 2rem 8rem 0;
+  font-size: large;
+  text-align: justify;
+}
+
+.tamanho-artigos {
+  width: 56rem;
+}
+
+* {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .article-box {
+      width: 100%;
+    }
+}
+

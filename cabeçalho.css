@@ -1,0 +1,44 @@
+body {
+    background-image: url(./img/background-principal.png);
+    background-repeat:repeat-y;
+    background-size: cover;
+    width: 100%;
+  }
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 20px 55px;
+    border-bottom: 2px solid; /* adiciona uma borda inferior de 4 pixels de largura */
+    border-image: linear-gradient(to right, #0cda95, #0980e0) 1; /* define a cor da borda como um gradiente de azul claro para azul escuro */
+}
+    
+header h1 {
+    flex: 1; /* faz com que o título ocupe todo o espaço disponível */
+    margin: 0;
+    padding-left: 1rem;
+} 
+
+header img {
+    height: 50px;
+    margin: 0;
+    object-fit: contain; /* mantém a proporção do logotipo */
+}  
+
+h1 {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s; /* adiciona transição suave na mudança de cor */
+    font-size:xx-large;
+}
+
+.botao-entrar {
+    color: white; /* mantém a cor do texto */
+    text-decoration: none; /* remove o sublinhado */
+    transition: color 0.2s; /* adiciona transição suave na mudança de cor */
+}
+
+.botao-entrar :hover {
+    color: #becc00; /* cor destacada da paleta de cores do CyberPunk 2077 */
+}
