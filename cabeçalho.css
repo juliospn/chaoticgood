@@ -1,8 +1,10 @@
 body {
-    background-image: url(./img/background-principal.png);
-    background-repeat:repeat-y;
-    background-size: cover;
+    background-image: url(./img/rabit\ hole.jpg);
+    background-color: #000000;
+    background-position:top;
+    background-repeat:no-repeat;
     width: 100%;
+    max-height: max-content;
   }
 
 header {
@@ -34,11 +36,31 @@ h1 {
 }
 
 .botao-entrar {
-    color: white; /* mantém a cor do texto */
+    margin: 20rem auto;
+    color: rgb(0, 0, 0); /* mantém a cor do texto */
     text-decoration: none; /* remove o sublinhado */
     transition: color 0.2s; /* adiciona transição suave na mudança de cor */
+    border-color: black;
+    border: 15px;
+    font-weight: 600;
 }
 
-.botao-entrar :hover {
-    color: #becc00; /* cor destacada da paleta de cores do CyberPunk 2077 */
+.botao-cabeçalho {
+    color: rgb(255, 255, 255); /* mantém a cor do texto */
+    text-decoration: none; /* remove o sublinhado */
+}
+
+
+.caixa-entrar {
+    padding: 1rem 2rem;
+    margin-right: 7rem;
+    background-color: rgba(211, 211, 211, 0.438);
+    color: #000000;
+    border: 2px;
+}
+
+.caixa-entrar :hover {
+    background-color: rgba(211, 211, 211, 0);
+    border-color: aqua;
+    color: #ffee00;
 }
