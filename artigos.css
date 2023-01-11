@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -7,17 +11,15 @@ section {
   display: flex;
   flex-wrap: wrap;
   margin: 3rem auto 0;
-  padding: 0 20px;
+  justify-content: space-evenly;
 }
 
 article {
-  display: flex;
   column-count: 3; /* Define quatro colunas */
   column-width: 500px; /* Define o tamanho das colunas em 300 pixels */
-  column-gap: 20px; /* Define um espaçamento de 20 pixels entre as colunas */
   column-rule: 1px solid #ccc; /* Adiciona uma linha vertical entre as colunas, com 1 pixel de espessura e cor cinza claro */
-  margin: 1rem auto;
   font-family: Montserrat,sans-serif;
+  margin: 0 auto;
 }
 
 .article-box {
@@ -31,7 +33,6 @@ article {
   padding: 20px;
   margin: 20px;
   border-radius: 5px;
-  margin: 0 auto; 
 }
   
 .article-box img {
@@ -51,17 +52,12 @@ article {
   font-size: 1.2rem;
   margin-top: 0.75rem;
   color: #5c6269;
-  width: 380px;
   text-align: justify;
   text-decoration: none;
   font-weight: 250;
   line-height: 1.425;
 }
 
-.fundo-preto {
-  background-color: #000000;
-  text-decoration: none;
-}
 
 .titulo-principal {
   background-image: linear-gradient(90deg,#00ffbf, #0cdada, #0980e0);
@@ -93,6 +89,7 @@ article {
   margin: 0 auto;
   margin-top: 1.7rem;
   cursor: pointer;
+  border: none;
 }
 
 .centralizador {
@@ -109,9 +106,26 @@ article {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
-    .article-box {
-      width: 100%;
-    }
+@media (min-width: 475px) {
+  article {
+    display: flex;
+  }
+  
+}
+
+@media (max-width: 650px) {
+  .texto-principal {
+    display: none;
+  }
+}
+
+@media (min-width: 475px) {
+  article {
+    display: flex;
+  }
+
+  .article-box p {
+    width: 380px;
+  }
 }
 

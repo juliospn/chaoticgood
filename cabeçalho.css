@@ -1,23 +1,14 @@
-body {
-    background-image: url(./img/rabit\ hole.jpg);
-    background-color: #000000;
-    background-position:top;
-    background-repeat:no-repeat;
-    width: 100%;
-    max-height: max-content;
-  }
-
 header {
-    display: flex;
+    display: flex;    
     align-items: center;
     background-color: black;
-    padding: 20px 55px;
     border-bottom: 2px solid; /* adiciona uma borda inferior de 4 pixels de largura */
     border-image: linear-gradient(to right, #0cda95, #0980e0) 1; /* define a cor da borda como um gradiente de azul claro para azul escuro */
+    padding: 12px;
 }
-    
+
 header h1 {
-    flex: 1; /* faz com que o título ocupe todo o espaço disponível */
+/* faz com que o título ocupe todo o espaço disponível */
     margin: 0;
     padding-left: 1rem;
 } 
@@ -35,6 +26,11 @@ h1 {
     font-size:xx-large;
 }
 
+.cabeçalho {
+    display: flex;
+    align-items: center;
+}
+
 .botao-entrar {
     margin: 20rem auto;
     color: rgb(0, 0, 0); /* mantém a cor do texto */
@@ -50,17 +46,19 @@ h1 {
     text-decoration: none; /* remove o sublinhado */
 }
 
-
-.caixa-entrar {
-    padding: 1rem 2rem;
-    margin-right: 7rem;
-    background-color: rgba(211, 211, 211, 0.438);
-    color: #000000;
-    border: 2px;
+@media (min-width:370px) and (max-width: 550px) {
+    .cabeçalho {
+        scale: 0.9;
+    }
+}
+@media (max-width: 370px) {
+    .cabeçalho {
+        scale: 0.9;
+    }
 }
 
-.caixa-entrar :hover {
-    background-color: rgba(211, 211, 211, 0);
-    border-color: aqua;
-    color: #ffee00;
+@media (min-width:550px) {
+    header {
+        padding-left: 35px;
+    }
 }

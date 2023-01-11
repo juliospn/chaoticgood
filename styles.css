@@ -1,0 +1,26 @@
+body {
+    background-image: url(./img/rabit\ hole.jpg);
+    background-color: #000000;
+    background-position:top;
+    background-repeat:no-repeat;
+    width: 100%;
+    max-height: max-content;
+  }
+
+.caixa-entrar {
+  display: flex;
+  background-image: linear-gradient(45deg,#929292,#03111d);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size:x-large;
+  margin: 0 auto;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  border: solid 2px rgb(255, 255, 255);
+  font-family: monospace;
+}
+
+.caixa-entrar :hover {
+    border-color: aqua;
+}
