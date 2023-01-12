@@ -1,4 +1,4 @@
-# caothicgood
+# chaoticgood
 
 Oi! Seja bem-vindo ao site da Caothic Good!
 
