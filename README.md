@@ -12,4 +12,4 @@ Agradecemos por visitar o nosso site e esperamos que você aproveite a sua visit
 
 Até breve!
 
-Equipe da Caothic Good
+Equipe da Chaotic Good
