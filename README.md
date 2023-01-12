@@ -1,6 +1,6 @@
 # chaoticgood
 
-Oi! Seja bem-vindo ao site da Caothic Good!
+Oi! Seja bem-vindo ao site da Chaotic Good!
 
 Este é um blog sobre anarquia e libertarianismo, com um design moderno e uma paleta de cores inspirada no jogo CyberPunk 2077. Aqui, você encontrará artigos, entrevistas e outros conteúdos sobre esses temas.
 
