@@ -1,26 +1,65 @@
 body {
-    background-image: url(./img/rabit\ hole.jpg);
+ background-image: url(./img/rabit\ hole.jpg);
     background-color: #000000;
     background-position:top;
     background-repeat:no-repeat;
     width: 100%;
     max-height: max-content;
+    
   }
 
 .caixa-entrar {
-  display: flex;
-  background-image: linear-gradient(45deg,#929292,#03111d);
+  background-image: linear-gradient(7deg,#484850,#03111d);
   color: rgb(255, 255, 255);
-  border-radius: 10px;
-  padding: 0.5rem 1rem;
+  border-radius: 8px;
   font-size:x-large;
   margin: 0 auto;
-  margin-top: 1.7rem;
   cursor: pointer;
-  border: solid 2px rgb(255, 255, 255);
   font-family: monospace;
+  z-index: 2;
+  position: absolute;
+  inset: 2px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
-.caixa-entrar :hover {
-    border-color: aqua;
+main {
+    justify-content: center;
 }
+
+/* borda luminosa */
+.box {
+  margin: 20.5rem auto;
+	position: relative;
+	width: 100px;
+  height: 35px;
+	background: #1c1c1c;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.box::before {
+  top: 15%;
+    left: -5%;
+	content: '';
+	z-index: 1;
+	position: absolute;
+	width: 110px;
+  height: 25px;
+	background: linear-gradient(0deg,transparent,#ffffff ,transparent);
+	animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+	0%
+	{
+		transform: rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(360deg);
+	}
+}
+
+ /* pronto */
