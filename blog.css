@@ -96,7 +96,7 @@ article {
     margin: 0 auto;
     margin-top: 1.7rem;
     cursor: pointer;
-    border: none;
+    border: solid 2px lightskyblue;
 }
   
 .centralizador {
