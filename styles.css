@@ -6,13 +6,14 @@
   margin: 0 auto;
   cursor: pointer;
   font-family: monospace;
-  z-index: 2;
+  /* z-index: 2; */
   position: absolute;
   inset: 2px;
   justify-content: center;
   display: flex;
   align-items: center;
   overflow: hidden;
+  border-collapse: collapse;
 }
 
 main {
@@ -22,19 +23,18 @@ main {
 /* borda luminosa */
 .box {
   margin: 20.5rem auto;
-	position: relative;
+	position: absolute;
 	width: 100px;
   height: 35px;
-	background: #1c1c1c;
-	border-radius: 10px;
+	background: #8d0c0c81;
+	border-radius: 30%;
 	overflow: hidden;
 }
 
 .box::before {
   top: 15%;
-    left: -5%;
+  left: -5%;
 	content: '';
-	z-index: 1;
 	position: absolute;
 	width: 110px;
   height: 25px;
@@ -53,8 +53,17 @@ main {
 	}
 }
 
-/* borda luminosa */
+ /* borda luminosa */
 
-/* efeito piscando */
+ /* efeito piscando */
 
-/* efeito piscando */
+.piscando {
+  background-image: url(./img/rabit\ hole.jpg);
+  background-position:top;
+  background-repeat:no-repeat;
+  width: 100%;
+  max-height: max-content;
+  background-color: black;
+  color: transparent;
+  animation: piscar 9s linear infinite;
+}
