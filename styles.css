@@ -6,14 +6,12 @@
   margin: 0 auto;
   cursor: pointer;
   font-family: monospace;
-  /* z-index: 2; */
+  z-index: 2;
   position: absolute;
   inset: 2px;
   justify-content: center;
   display: flex;
   align-items: center;
-  overflow: hidden;
-  border-collapse: collapse;
 }
 
 main {
@@ -23,7 +21,7 @@ main {
 /* borda luminosa */
 .box {
   margin: 20.5rem auto;
-	position: absolute;
+	position: relative;
 	width: 100px;
   height: 35px;
 	background: #8d0c0c81;
@@ -40,7 +38,7 @@ main {
   height: 25px;
 	background: linear-gradient(0deg,transparent,#ffffff ,transparent);
 	animation: animate 5s linear infinite;
-	z-index:-1;
+  z-index: -1;
 }
 
 @keyframes animate {
@@ -65,8 +63,38 @@ main {
   width: 100%;
   max-height: max-content;
   background-color: black;
-  color: transparent;
   animation: piscar 9s linear infinite;
-    z-index: 5;
-    position: absolute;
+  z-index: 2;
 }
+
+@keyframes piscar {
+  0% {
+    background-image: url("./img/rabit\ hole.jpg");
+  }
+  35% {
+    background-image: url("./img/rabit\ hole.jpg");
+  }
+  36% {
+    background-image: none;
+  }
+  70% {
+    background-image: url("./img/rabit\ hole.jpg");
+  }
+  95% {
+    background-image: url("./img/rabit\ hole.jpg");
+  }
+  96% {
+    background-image: none;
+  }
+  98% {
+    background-image: url("./img/rabit\ hole.jpg");
+  }
+  99% {
+    background-image: none;
+  }
+  100% {
+    background-image: url("./img/rabit\ hole.jpg");
+  }
+}
+
+/* efeito piscando */
