@@ -40,6 +40,7 @@ main {
   height: 25px;
 	background: linear-gradient(0deg,transparent,#ffffff ,transparent);
 	animation: animate 5s linear infinite;
+	z-index:-1;
 }
 
 @keyframes animate {
