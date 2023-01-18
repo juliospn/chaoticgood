@@ -30,7 +30,7 @@ main {
   height: 35px;
   border-radius: 10px;
   overflow: hidden;
-	border:solid 1px;
+	border: solid 5px rgb(0 0 0 / 10%);
 }
 
 .box::before {
