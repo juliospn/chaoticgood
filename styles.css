@@ -67,4 +67,6 @@ main {
   background-color: black;
   color: transparent;
   animation: piscar 9s linear infinite;
+    z-index: 5;
+    position: absolute;
 }
