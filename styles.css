@@ -1,3 +1,7 @@
+* {
+ box-sizing: border-box;
+}
+
 .caixa-entrar {
   background-image: linear-gradient(7deg,#484850,#03111d);
   color: rgb(255, 255, 255);
@@ -24,8 +28,8 @@ main {
   position: relative;
   width: 100px;
   height: 35px;
-  background: #8d0c0c81;
-  border-radius: 30%;
+  background-color: black;
+  border-radius: 10px;
   overflow: hidden;
 }
 
