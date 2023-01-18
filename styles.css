@@ -16,6 +16,7 @@
   justify-content: center;
   display: flex;
   align-items: center;
+	border: solid 1px black;
 }
 
 main {
@@ -44,7 +45,6 @@ main {
   animation: animate 5s linear infinite;
   z-index: -1;
   border-radius: 10px;
-  border-collapse: collapse;
 }
 
 @keyframes animate {
