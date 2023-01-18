@@ -21,24 +21,26 @@ main {
 /* borda luminosa */
 .box {
   margin: 20.5rem auto;
-	position: relative;
-	width: 100px;
+  position: relative;
+  width: 100px;
   height: 35px;
-	background: #8d0c0c81;
-	border-radius: 30%;
-	overflow: hidden;
+  background: #8d0c0c81;
+  border-radius: 30%;
+  overflow: hidden;
 }
 
 .box::before {
   top: 15%;
   left: -5%;
-	content: '';
-	position: absolute;
-	width: 110px;
+  content: '';
+  position: absolute;
+  width: 110px;
   height: 25px;
-	background: linear-gradient(0deg,transparent,#ffffff ,transparent);
-	animation: animate 5s linear infinite;
+  background: linear-gradient(0deg,transparent,#ffffff ,transparent);
+  animation: animate 5s linear infinite;
   z-index: -1;
+  border-radius: 10px;
+  border-collapse: collapse;
 }
 
 @keyframes animate {
