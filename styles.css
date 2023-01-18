@@ -1,13 +1,3 @@
-body {
- background-image: url(./img/rabit\ hole.jpg);
-    background-color: #000000;
-    background-position:top;
-    background-repeat:no-repeat;
-    width: 100%;
-    max-height: max-content;
-    
-  }
-
 .caixa-entrar {
   background-image: linear-gradient(7deg,#484850,#03111d);
   color: rgb(255, 255, 255);
@@ -62,4 +52,49 @@ main {
 	}
 }
 
- /* pronto */
+ /* borda luminosa */
+
+ /* efeito piscando */
+
+.piscando {
+  background-image: url(./img/rabit\ hole.jpg);
+    background-position:top;
+    background-repeat:no-repeat;
+    width: 100%;
+    max-height: max-content;
+  background-color: black;
+  color: transparent;
+  animation: piscar 9s linear infinite;
+}
+
+@keyframes piscar {
+  0% {
+    background-image: url("./img/rabit\ hole.jpg");
+  }
+  35% {
+    background-image: url("./img/rabit\ hole.jpg");
+  }
+  36% {
+    background-image: none;
+  }
+  70% {
+    background-image: url("./img/rabit\ hole.jpg");
+  }
+  95% {
+    background-image: url("./img/rabit\ hole.jpg");
+  }
+  96% {
+    background-image: none;
+  }
+  98% {
+    background-image: url("./img/rabit\ hole.jpg");
+  }
+  99% {
+    background-image: none;
+  }
+  100% {
+    background-image: url("./img/rabit\ hole.jpg");
+  }
+}
+
+/* efeito piscando */
