@@ -22,26 +22,24 @@ main {
 /* borda luminosa */
 .box {
   margin: 20.5rem auto;
-  position: relative;
-  width: 100px;
+	position: relative;
+	width: 100px;
   height: 35px;
-  background: #1c1c1c;
-  border-radius: 10px;
-  overflow: hidden;
+	background: #1c1c1c;
+	border-radius: 10px;
+	overflow: hidden;
 }
 
 .box::before {
   top: 15%;
-  left: -5%;
-  content: '';
-  z-index: 1;
-  position: absolute;
-  width: 110px;
+    left: -5%;
+	content: '';
+	z-index: 1;
+	position: absolute;
+	width: 110px;
   height: 25px;
-  background: linear-gradient(0deg,transparent,#ffffff ,transparent);
-  animation: animate 5s linear infinite;
-  border-radius: 10px;
-  overflow: hidden;
+	background: linear-gradient(0deg,transparent,#ffffff ,transparent);
+	animation: animate 5s linear infinite;
 }
 
 @keyframes animate {
@@ -61,10 +59,10 @@ main {
 
 .piscando {
   background-image: url(./img/rabit\ hole.jpg);
-  background-position:top;
-  background-repeat:no-repeat;
-  width: 100%;
-  max-height: max-content;
+    background-position:top;
+    background-repeat:no-repeat;
+    width: 100%;
+    max-height: max-content;
   background-color: black;
   color: transparent;
   animation: piscar 9s linear infinite;
@@ -80,7 +78,7 @@ main {
   36% {
     background-image: none;
   }
-  75% {
+  70% {
     background-image: url("./img/rabit\ hole.jpg");
   }
   95% {
@@ -101,3 +99,32 @@ main {
 }
 
 /* efeito piscando */
+
+@media (max-width:800px) {
+  .caixa-entrar {
+    background-image: linear-gradient(7deg,#484850,#03111d);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-size:x-large;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: monospace;
+    z-index: 2;
+    position: absolute;
+    inset: 2px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .box {
+    margin: 20.5rem auto;
+    position: relative;
+    width: 100px;
+    height: 35px;
+    background: #1c1c1c;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
