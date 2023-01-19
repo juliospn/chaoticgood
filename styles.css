@@ -45,6 +45,7 @@ main {
   background: linear-gradient(0deg,transparent,#ffffff ,transparent);
   animation: animate 5s linear infinite;
   border-radius: 10px;
+	z-index:0;
 }
 
 @keyframes animate {
