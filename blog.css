@@ -88,7 +88,7 @@ article {
   
 .botao-explorar {
     display: flex;
-    background-image: linear-gradient(90deg,#16b8e0,#0980e0);
+    background-color: #0980e0; 
     color: #fff;
     border-radius: 10px;
     padding: 0.5rem 1rem;
@@ -97,11 +97,13 @@ article {
     margin-top: 1.7rem;
     cursor: pointer;
     border: solid 2px lightskyblue;
+    transition: 1s all;
 }
 
 button.botao-explorar:hover {
-    background-color: #000000; 
+    background-color: #01169267; 
     scale: 1.05;
+    border: solid 2px rgb(15, 111, 255);
 }
 
 .centralizador {
