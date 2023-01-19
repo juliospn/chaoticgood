@@ -82,7 +82,7 @@ main {
     width: 56rem;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
       .article-box {
         width: 100%;
       }
