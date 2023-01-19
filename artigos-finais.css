@@ -88,4 +88,9 @@ main {
       }
   }
   
-  
+@media (max-width: 300px) {
+.article-box {
+    width: 100%;
+    overflow-wrap: anywhere;
+    }
+}
