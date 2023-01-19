@@ -31,7 +31,7 @@ main {
   height: 40px;
   border-radius: 10px;
   overflow: hidden;
-	border: solid 2px black;
+	border: solid 3px black;
 	background-color: #0000009e;
 }
 
@@ -45,7 +45,7 @@ main {
   background: linear-gradient(0deg,transparent,#ffffff ,transparent);
   animation: animate 5s linear infinite;
   border-radius: 10px;
-	z-index:0;
+	z-index:-1;
 }
 
 @keyframes animate {
