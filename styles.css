@@ -109,7 +109,7 @@ main {
 @media (min-width:420px) {
 
 .box{
-  border:solid 2px rgba(8, 66, 8, 0.575);
+  border:solid 2px rgb(0 0 0 / 80%);
 }
 
 }
