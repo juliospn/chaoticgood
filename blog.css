@@ -98,7 +98,12 @@ article {
     cursor: pointer;
     border: solid 2px lightskyblue;
 }
-  
+
+button.botao-explorar:hover {
+    background-color: #000000; 
+    scale: 1.05;
+}
+
 .centralizador {
     margin: 2rem 8rem 0;
     font-size: large;
