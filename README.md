@@ -13,8 +13,8 @@ See you soon!
 Chaotic Good Team
 
 
-<!------------------------------------------------>
-// Portuguese //
+<!------------------------------------------------> 
+<p>// Portuguese //</p>
 
 
 Oi! Seja bem-vindo ao site da Chaotic Good!
