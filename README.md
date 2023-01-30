@@ -14,7 +14,7 @@ Chaotic Good Team
 
 
 <!------------------------------------------------>
-
+// Portuguese //
 
 
 Oi! Seja bem-vindo ao site da Chaotic Good!
