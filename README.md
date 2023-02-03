@@ -13,7 +13,4 @@ See you soon!
 Chaotic Good Team
 
 
-<!------------------------------------------------> 
-<p>// Portuguese //</p>
-
 
